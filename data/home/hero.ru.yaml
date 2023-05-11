@@ -1,0 +1,16 @@
+enabled: true
+id: 'hero'
+
+content:
+  title: 'Разработка приложений и IT консалтинг'
+  # text: 'How to **level up** your business'
+  image: 'images/hero-image.png'
+
+  buttonPrimary:
+    label: 'Как мы работаем'
+    url: '#'
+
+  buttonSecondary:
+    label: "Let's talk"
+    url: ""
+

@@ -1,0 +1,93 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Our main services"
+  # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  cards:
+    # - image: "images/services-web-development.png"
+    #   title: 'IT Process Audit'
+    #   text: 'Conducting your IT team operations audit and providing improvement feedback'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    # - image: "images/services-web-development.png"
+    #   title: 'Code Review'
+    #   text: 'Including recommendations on scaling enterprise systems with large legacies'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    # - image: "images/services-web-development.png"
+    #   title: 'Permanent results'
+    #   text: 'When you need to release new functionality for the customers every 2-4 weeks'
+    #   # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    # - image: "images/services-web-development.png"
+    - image: "images/ls-graphics-clak-pack/rocket.png"
+      title: 'Software outsourcing'
+      text: 'When you need a specific turnkey solution'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+          #Hire Top Level Remote Developers
+          #When you need a proven developer / tester for specific tasks quickly
+          #
+
+    # - image: "images/ls-graphics-clak-pack/presentation-min.png"
+    - image: "images/ls-graphics-clak-pack/awards-min.png"
+    # - image: 'images/undraw_woman_ffrd.png'
+      title: 'IT consulting'
+      text: 'IT Product Audit, IT Process Audit, Code Review'
+      # text: 'Conducting technical audit and providing improvement feedback'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    # - image: 'images/my-web-dev-pic.png'
+    - image: "images/ls-graphics-clak-pack/laptop.png"
+      title: 'Web Development'
+      text: 'Back-end and front-end development'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    # - image: "images/services-web-development.png"
+    - image: "images/ls-graphics-clak-pack/analytics.png"
+      title: 'UX/UI Design'
+      text: 'UX strategy, interface design, mind mapping'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    # - image: "images/20 User Interaction.png"
+    - image: "images/ls-graphics-clak-pack/mobile-phone.png"
+      title: 'Mobile Development'
+      text: 'Development of native and hybrid applications'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    # - image: "images/services-web-development.png"
+    #   title: 'Quality Assurance'
+    #   text: 'Manual and automated testing'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+    - image: "images/ls-graphics-clak-pack/build-min.png"
+      title: 'Software DevOps'
+      text: 'Development automation'
+      # button:
+      #   label: "Learn more"
+      #   url: "#"
+
+
+
+
+
+
