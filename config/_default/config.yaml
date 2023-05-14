@@ -1,4 +1,4 @@
-baseURL: "http://dev366.com/"
+baseURL: "https://dev366.com/"
 theme: "up-business-theme"
 # languageCode: "en-us"
 defaultContentLanguage: en
