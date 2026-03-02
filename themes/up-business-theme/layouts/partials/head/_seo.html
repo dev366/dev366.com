@@ -1,7 +1,5 @@
-{{ if .Site.GoogleAnalytics }}
-  {{ template "_internal/google_analytics.html" . }}
-{{ end }}
+{{/* Let Hugo's internal template resolve analytics config across versions. */}}
+{{ template "_internal/google_analytics.html" . }}
 
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/schema.html" . }}
-
