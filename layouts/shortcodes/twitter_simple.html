@@ -1,0 +1,26 @@
+{{- $id := "" -}}
+{{- $user := "" -}}
+{{- if .IsNamedParams -}}
+  {{- $id = .Get "id" | default "" -}}
+  {{- $user = .Get "user" | default "" -}}
+{{- else -}}
+  {{- if ge (len .Params) 1 -}}
+    {{- $id = .Get 0 -}}
+  {{- end -}}
+  {{- if ge (len .Params) 2 -}}
+    {{- $user = .Get 1 -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $id -}}
+  {{- errorf "twitter_simple shortcode requires a tweet id: %s" .Position -}}
+{{- end -}}
+
+{{- $url := printf "https://x.com/i/web/status/%s" $id -}}
+{{- if $user -}}
+  {{- $url = printf "https://x.com/%s/status/%s" $user $id -}}
+{{- end -}}
+
+<blockquote class="x-post">
+  <a href="{{ $url }}">{{ $url }}</a>
+</blockquote>
